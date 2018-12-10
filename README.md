@@ -24,7 +24,7 @@ where you wish to include the Okta SDK:
 }
  ```
 
-Run `composer require okta/sdk` from the root of your project in terminal, and you are done.
+Run `composer require okta/sdk dev-master` from the root of your project in terminal, and you are done.
 
 ## Client Initialization
 Once you have the SDK installed in your project, you will need to instantiate a Client object. We follow the builder 
