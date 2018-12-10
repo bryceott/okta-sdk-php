@@ -5,8 +5,24 @@
 [![License](https://poser.pugx.org/okta/sdk/license.svg)](https://packagist.org/packages/okta/sdk)
 [![Support](https://img.shields.io/badge/support-Developer%20Forum-blue.svg)](https://devforum.okta.com/)
 
+## Fork Note
+Please note that this is a fork of **version 1.1.0** of the **[okta/okta-sdk-php][https://github.com/okta/okta-sdk-php]** repo. 
+This fork was created to update the package to work with **Laravel 5.7**. 
+
 ## Installation
-**okta-sdk-php** is available on Packagist as the [okta/sdk](http://packagist.org/packages/okta/sdk) package.
+Add the following reference from the **repositories** section in the following code to the **composer.json** file in the project 
+where you wish to include the Okta SDK:
+
+ ```json
+ {  
+    "repositories": [  
+        {  
+            "type": "vcs",  
+            "url": "https://github.com/bryceott/okta-sdk-php"  
+        }  
+    ]  
+}
+ ```
 
 Run `composer require okta/sdk` from the root of your project in terminal, and you are done.
 
