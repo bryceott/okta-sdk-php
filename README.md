@@ -10,17 +10,21 @@ Please note that this is a fork of **version 1.1.0** of the **[okta/okta-sdk-php
 This fork was created to update the package to work with **Laravel 5.7**. 
 
 ## Installation
-Add the following reference from the **repositories** section in the following code to the **composer.json** file in the project 
-where you wish to include the Okta SDK:
+Add the following  code to the **composer.json** file in the project where you wish to use the Okta SDK:
 
  ```json
- {  
+{  
     "repositories": [  
         {  
             "type": "vcs",  
             "url": "https://github.com/bryceott/okta-sdk-php"  
         }  
     ]  
+},
+{
+    "require": [
+        "okta/sdk": "dev-master"
+    ]
 }
  ```
 
